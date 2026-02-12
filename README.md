@@ -4,45 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EASYLIFEGULLLC | Official Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f7f7f7;
-      color: #222;
+      font-family: 'Inter', sans-serif;
+      background: #f4f6f9;
+      color: #1a1a1a;
+      line-height: 1.6;
     }
     header {
-      background: #111;
-      color: #fff;
-      padding: 30px 20px;
+      background: linear-gradient(135deg, #111, #2b2b2b);
+      color: white;
+      padding: 60px 20px;
       text-align: center;
     }
+    header h1 { font-size: 36px; margin-bottom: 10px; }
+    header p { font-size: 18px; opacity: 0.9; }
     section {
-      max-width: 900px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 30px;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+    h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      border-bottom: 2px solid #111;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    ul { margin-left: 20px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #eee;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
       border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     }
-    h1, h2 {
-      margin-top: 0;
+    .contact-box {
+      background: #111;
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
     }
-    ul {
-      padding-left: 20px;
+    .contact-box a {
+      color: #4da3ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background: #25D366;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
     }
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 30px;
       font-size: 14px;
-      color: #555;
-    }
-    .info-box {
-      background: #f1f5ff;
-      padding: 15px;
-      border-left: 4px solid #3b5bfd;
-      margin: 20px 0;
+      color: #777;
     }
   </style>
 </head>
@@ -50,62 +88,73 @@
 
 <header>
   <h1>EASYLIFEGULLLC</h1>
-  <p>International E‑Commerce & Product Sourcing Services</p>
+  <p>International E‑Commerce | Product Sourcing | Supplier Coordination</p>
 </header>
 
 <section>
-  <h2>About Us</h2>
+  <h2>Company Overview</h2>
   <p>
-    EASYLIFEGULLLC is a Wyoming‑registered limited liability company providing
-    e‑commerce support, product sourcing, and order processing services to
-    international clients. We act as an intermediary between buyers and
-    manufacturers, ensuring smooth transactions and reliable fulfillment.
+    EASYLIFEGULLLC is a Wyoming‑registered limited liability company owned by <strong>Muhammad Waqar</strong>. 
+    We specialize in international e‑commerce operations, product sourcing, order processing, and 
+    supplier coordination for online marketplace businesses.
   </p>
 </section>
 
 <section>
-  <h2>Our Line of Business</h2>
+  <h2>Our Services</h2>
   <ul>
-    <li>E‑commerce product sourcing</li>
-    <li>Order processing and supplier coordination</li>
-    <li>Payment handling and forwarding to manufacturers</li>
-    <li>Supply chain and fulfillment support</li>
+    <li>Product sourcing from verified manufacturers</li>
+    <li>Supplier payment processing</li>
+    <li>Order coordination & logistics support</li>
+    <li>E‑commerce marketplace operations (Amazon Store: <strong>Ultima Volta</strong>)</li>
   </ul>
 </section>
 
 <section>
   <h2>How Payments Work</h2>
-  <div class="info-box">
-    <p>
-      Clients pay EASYLIFEGULLLC for sourcing and order processing services.
-      Once payment is received, we forward the required amount to our verified
-      suppliers or manufacturers to fulfill the order.
-    </p>
-    <p>
-      All transactions are supported by valid invoices and records for
-      compliance and transparency.
-    </p>
+  <p>
+    Clients pay EASYLIFEGULLLC for sourcing and order management services. 
+    Upon receiving payment, we transfer funds to verified suppliers for manufacturing 
+    and fulfillment. All transactions are supported by invoices and documentation 
+    for full compliance and transparency.
+  </p>
+</section>
+
+<section>
+  <h2>Business Operations</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="product1.jpg" alt="Product Image Placeholder">
+      <p>Product Sourcing & Development</p>
+    </div>
+    <div class="card">
+      <img src="product2.jpg" alt="Operations Image Placeholder">
+      <p>Supplier & Manufacturing Coordination</p>
+    </div>
+    <div class="card">
+      <img src="product3.jpg" alt="Logistics Image Placeholder">
+      <p>Order Fulfillment & Logistics</p>
+    </div>
   </div>
 </section>
 
 <section>
   <h2>Company Information</h2>
+  <p><strong>Owner:</strong> Muhammad Waqar</p>
   <p><strong>Company Name:</strong> EASYLIFEGULLLC</p>
-  <p><strong>Owner Name:</strong> Muhammad Waqar</p>
   <p><strong>Registered Address:</strong> Wyoming 82801, United States</p>
   <p><strong>Phone:</strong> +86 181 1066 0544</p>
-  <p><strong>Email:</strong> easylifegul@gmail.com</p>
-  <p><strong>Amazon Store Name:</strong> Ultima Volta</p>
+  <p><strong>Email:</strong> <a href="mailto:easylifegul@gmail.com">easylifegul@gmail.com</a></p>
+  <p><strong>Amazon Store:</strong> Ultima Volta</p>
 </section>
 
 <section>
-  <h2>Compliance & Transparency</h2>
-  <p>
-    EASYLIFEGULLLC operates in accordance with applicable financial regulations
-    and platform terms. We maintain proper documentation for all payments,
-    invoices, and supplier transactions. No prohibited or restricted services
-    are offered.
-  </p>
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:easylifegul@gmail.com">easylifegul@gmail.com</a></p>
+    <p>Phone: +86 181 1066 0544</p>
+    <a class="btn" href="https://wa.me/8618110660544" target="_blank">Chat on WhatsApp</a>
+  </div>
 </section>
 
 <footer>
