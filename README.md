@@ -160,6 +160,8 @@
 <footer>
   © 2025 EASYLIFEGULLLC. All rights reserved.
 </footer>
+[image Alt] ([)](
+](https://github.com/easylifegulllc/easylifegulllc/blob/0163d1cfbd558541064ea6ad8ccf494bd201606c/pic2.png)
 ![image Alt] ([)](https://github.com/easylifegulllc/easylifegulllc/blob/455cb3949fec505db30cc34903fb2ceaf7d0435f/pic%201.png)
 </body>
 </html>
